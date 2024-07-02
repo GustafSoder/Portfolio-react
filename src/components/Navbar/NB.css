@@ -1,0 +1,91 @@
+/* NB.css */
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 2% 10%;
+  margin-top: 0;
+  position: relative; /* Ensure that position can be controlled for child elements */
+}
+
+.nav-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-main-text);
+
+  text-decoration: none;
+  margin-left: 1rem; /* Add margin to the left for better positioning */
+}
+
+.menu {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  /* Add margin to the right for better positioning */
+}
+.hamburger-icon {
+  display: none;
+}
+.nav-items li a {
+  color: var(--color-main-text);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-items li a:hover {
+  color: #e4f1fe8b;
+}
+
+@media screen and (max-width: 830px) {
+  .NavBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: var(--color-main-bg);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 49, 63, 0.2) 0%,
+      rgba(34, 49, 63, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .nav-items.open {
+    display: flex;
+    z-index: 1;
+  }
+
+  .nav-items li {
+    padding: 0.5rem 0;
+  }
+
+  .hamburger-icon {
+    display: block;
+    cursor: pointer;
+    color: var(--color-main-text);
+  }
+}

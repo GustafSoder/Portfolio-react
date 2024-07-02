@@ -1,0 +1,34 @@
+[
+  {
+    "role": "Master Thesis Student",
+    "company": "Elastisys",
+    "startDate": "Jan, 2024",
+    "endDate": "may, 2024",
+    "description": [
+      "Worked on my thesis project using the technologies of Kubernetes"
+    ],
+    "image": "/images/elastisys.png"
+  },
+  {
+    "role": "IT-engineer Intern",
+    "company": "SCA",
+    "startDate": "June, 2023",
+    "endDate": "Aug,2023",
+    "description": [
+      "Worked on several projects using the technologies of C#, Python, Microsoft SQL Server"
+    ],
+    "image": "/images/sca.png"
+  },
+
+  {
+    "role": "Customer Support",
+    "company": "Telia",
+    "startDate": "Jan, 2017",
+    "endDate": "Mar, 2021",
+    "description": [
+      "Helped customers with troubleshooting their Services",
+      "GDPR ambassador for my team"
+    ],
+    "image": "/images/telia.png"
+  }
+]

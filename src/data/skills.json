@@ -1,0 +1,54 @@
+[
+  {
+    "title": "HTML",
+    "image": "/images/html.png"
+  },
+  {
+    "title": "CSS",
+    "image": "/images/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "image": "/images/js.png"
+  },
+  {
+    "title": "React",
+    "image": "/images/react.png"
+  },
+  {
+    "title": "Python",
+    "image": "/images/python.png"
+  },
+  {
+    "title": "SQL",
+    "image": "/images/sql.png"
+  },
+  {
+    "title": "Java",
+    "image": "/images/java.png"
+  },
+  {
+    "title": "C",
+    "image": "/images/C.png"
+  },
+  {
+    "title": "GitHub",
+    "image": "/images/github-mark-white.png"
+  },
+  {
+    "title": "Haskell",
+    "image": "/images/haskell.png"
+  },
+  {
+    "title": "Kubernetes",
+    "image": "/images/kubernetes.png"
+  },
+  {
+    "title": "Docker",
+    "image": "/images/docker.png"
+  },
+  {
+    "title": "Argo Rollouts",
+    "image": "/images/argo-rollouts.png"
+  }
+]

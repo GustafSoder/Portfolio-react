@@ -1,0 +1,34 @@
+[
+  {
+    "title": "School projects",
+    "imageSrc": "/images/school.png",
+    "description": "This is some of my school projects that I've worked on during my studies. I hope you like them.",
+    "skills": [
+      "AI",
+      "Java",
+      "C",
+      "Python",
+      "Haskell",
+      "Matlab",
+      "SQL",
+      "Prolog"
+    ],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Master Thesis",
+    "imageSrc": "/images/graduate.png",
+    "description": "This is my master thesis. I worked on it in order to obtain my degree as a M.sc in Computer Science.",
+    "skills": [
+      "Kubernetes",
+      "GCP",
+      "Prometheus",
+      "Istio",
+      "Argo Rollouts",
+      "MicroK8s",
+      "docker"
+    ],
+
+    "source": "https://github.com/Sudda-king/masterthesis"
+  }
+]
